@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/css.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Food delivery</title>
+</head>
+
+<body> 
+    <header class="header">
+        <div class="container">
+            <div class="row header-row">
+                <div class="col-12 d-flex justify-content-between header-wrap align-items-center">
+                    <div class="d-flex justify-content-start header-inner-fist-link">
+                        <img src="img/star.png" alt="" >
+                        <a href="" class="header-fist-link-txt "> Get 5% Off your first order, Promo: ORDER5</a>
+                    </div>
+                    <div class="d-flex justify-content-end header-inner-second-link ">
+                        <img src="img/Location.png" alt="" >
+                        <a href="" class="header-inner-second-link-txt "> Regent Street, A4, A4201, London</a>
+                        <a href="" class="header-inner-second-link-orange-txt">Change Location</a>
+                    </div>
+                    <div class="d-flex justify-content-start basket-inner  ">
+                        <a class="basket-inner-btn  ">
+                            <img src="img/Basket.png" alt="" class="basket-btn">
+                        </a>
+                            <a href="" class="basket-txt ">23 Items</a>
+                            <a href="" class="basket-txt" id="basket-txt">GBP 79.89</a>
+                        <a class="basket-location-inner-btn   ">
+                            <img src="img/ForwardBut.png" alt="" class="basket-location-btn">
+                        </a>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </header>
+    <div class="body">
+        <div class="container">
+            <div class="row">
+                <div class="header-logo-wrapp col-xl-12 d-flex justify-content-between align-items-center">
+                    <div class="header-logo col-3">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                    <div class="header-links-inner d-flex justify-content-between align-items-center col-7">
+                        <div class="header-links">
+                            <a href="" class="header-links-txt">Home</a>
+                        </div>
+                        <div class="header-links">
+                            <a href="" class="header-links-txt">Special Offers</a>
+                        </div>
+                        <div class="header-orange-links-inner ">
+                            <a href="" class="header-orange-links-txt">Restaurants</a>
+                        </div>
+                        <div class="header-links">
+                            <a href="" class="header-links-txt">Track order</a>
+                        </div>
+                        <div class="header-black-links-inner ">
+                            <div class="header-black-links-button">
+                                <img src="img/User.png" alt="" class="header-black-links-img">
+                                <a href="" class="header-black-links-txt">Login/Signup</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="banner-wrapp position-relative d-flex justify-content-around  align-items-center text-center">
+                    <div class="banner-inner-txt d-flex flex-column align-items-start">
+                        <a href="" class="fs-5 text-dark">Desi Flavours with a blend of Italian aesthetics!</a>
+                        <a href="" class="fs-1 text-dark  fw-bold">Tandoori Pizza London</a>
+                        <div class="banner-inner-btns d-flex justify-content-between">
+                            <img src="" alt="" class="banner-btn-img"></img>
+                            <a href="" class="banner-btn-txt "></a>
+                        </div>
+                        <div class="banner-inner-btns d-flex justify-content-between ">
+                            <div class="banner-inner-btn d-flex  align-items-center justify-content-evenly ">
+                                <img src="img/Order.png" alt="" class="banner-btn-img"></img>
+                                <a href="" class="banner-btn-txt fs-6 text-light ">Minimum Order: 12 GBP</a>
+                            </div>
+                            <div class="banner-inner-btn d-flex  align-items-center justify-content-evenly">
+                                <img src="img/Motocross.png" alt="" class="banner-btn-img"></img>
+                                <a href="" class="banner-btn-txt fs-6 text-light">Delivery in 20-25 Minutes</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="banner-rigth-img d-flex position-relative">
+                        <img src="img/girl.png" alt="">
+                        <div>
+                            <img src="img/reviews.png" alt="" class="position-absolute reviews-img">
+                        </div>
+                    </div>
+                    <div class="banner-imgs d-flex position-absolute  justify-content-center align-items-center">
+                        <img src="img/Clock.png" alt="">
+                        <a href="" class="banner-imgs-txt text-light fs-6 fw-bolder">Open until 3:00 AM</a>
+                    </div> 
+                </div>
+            </div>
+        </div>
+        <div class="container  search-wrap ">
+            <div class="row d-flex justify-content-between">
+                <div class="col-8  ">
+                    <h1 class="fs-2">
+                        Order from Tandoori Pizza London
+                    </h1>
+                </div>
+                <div class="input-group col-3 asdasdsa">
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon1">Button</button>
+                    <input type="text" class="form-control" placeholder="Search from menu..." aria-label="Example text with button addon" aria-describedby="button-addon1">
+                  </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row ">
+                <div class="menu col-3 ">
+                    <div class="top-menu d-flex align-items-start  gap-3 border rounded-start ">
+                        <img src="img/Menu.png" alt="">
+                        <a href="" class="text-dark fs-2 fw-bold ">Menu</a>
+                    </div> 
+                    <div class="menu-list d-flex flex-column border rounded-end ">
+                        <a href="" id="menu-list-white"  class="bg-dark text-light fs-4">Pizzas</a>
+                        <a href="" class=" text-dark fs-4 fw-bold">Garlic Bread</a>
+                        <a href="" class=" text-dark fs-4 fw-bold">Calzone</a>
+                        <a href="" class=" text-dark fs-4 fw-bold">Kebabas</a>
+                        <a href="" class=" text-dark fs-4 fw-bold">Salads</a>
+                        <a href="" class=" text-dark fs-4 fw-bold">Cold drinks</a>
+                        <a href="" class=" text-dark fs-4 fw-bold">Happy Meal</a>
+                        <a href="" class=" text-dark fs-4 fw-bold">Desserts</a>
+                        <a href="" class=" text-dark fs-4 fw-bold">Hot drinks</a>
+                        <a href="" class=" text-dark fs-4 fw-bold">Sauces</a>
+                        <a href="" class=" text-dark fs-4 fw-bold">Orbit</a>
+                    </div>
+                    <div class="menu-special d-flex align-items-center">
+
+                    </div> 
+                </div>
+                <div class="col-6 d-flex flex-column" >
+                    <div class="middle-menu d-flex justify-content-between align-items-center">
+                        <h1>Pizzas</h1>
+                        <input type="asddas">
+                    </div>
+                    <div class="middle-menu-card position-relative d-flex flex-column">
+                        <div class="middle-menu-card-name d-flex flex-column align-items-start">
+                            <a href="" class="text-dark fs-4 fw-bold">Farm house Xtreme Pizza</a>
+                            <img src="img/sharpnesspng.png" alt="">
+                        </div>
+                        <div class="middle-menu-card-list d-flex flex-column">
+                            <a href="" class="middle-menu-card-list-txt">1 McChicken™, 1 Big Mac™,  1 Royal  </a>
+                            <a href="" class="middle-menu-card-list-txt">Cheeseburger, 3 medium sized French Fries ,</a>
+                            <a href="" class="middle-menu-card-list-txt">3 cold drinks</a>
+                        </div>
+                        <div class="middle-menu-card-btns-wrapp d-flex justify-content-start align-items-center gap-1">
+                            <div class="middle-menu-card-black-btn d-flex justify-content-start align-items-center">
+                                <a href="" class="middle-menu-card-black-btn-txt text-light ">Small</a>
+                                <div class="middle-menu-card-green-btn d-flex justify-content-center align-items-center">
+                                    <a href="" class="middle-menu-card-green-btn-txt text-light ">$21.90</a>
+                                </div>
+                            </div>
+                            <div class="middle-menu-card-btn d-flex justify-content-start align-items-center">
+                                <a href="" class="middle-menu-card-btn-txt text-dark ">Small</a>
+                                <div class="middle-menu-card-green-btn d-flex justify-content-center align-items-center">
+                                    <a href="" class="middle-menu-card-green-btn-txt text-light ">$21.90</a>
+                                </div>
+                            </div>
+                            <div class="middle-menu-card-btn d-flex justify-content-start align-items-center">
+                                <a href="" class="middle-menu-card-btn-txt text-dark ">Small</a>
+                                <div class="middle-menu-card-green-btn d-flex justify-content-center align-items-center">
+                                    <a href="" class="middle-menu-card-green-btn-txt text-light ">$21.90</a>
+                                </div>
+                            </div>
+                            <div class="middle-menu-card-btn d-flex justify-content-start align-items-center">
+                                <a href="" class="middle-menu-card-btn-txt text-dark ">XL Large with Sauces</a>
+                                <div class="middle-menu-card-green-btn d-flex justify-content-center align-items-center">
+                                    <a href="" class="middle-menu-card-green-btn-txt text-light ">$21.90</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="middle-menu-card-img d-flex position-absolute">
+                            <img src="img/circle.png" alt="">
+                        </div>
+                    </div>
+                    <div class="middle-menu-card position-relative d-flex flex-column">
+                        <div class="middle-menu-card-name d-flex flex-column align-items-start">
+                            <a href="" class="text-dark fs-4 fw-bold">Farm house Xtreme Pizza</a>
+                            <img src="img/sharpnesspng.png" alt="">
+                        </div>
+                        <div class="middle-menu-card-list d-flex flex-column">
+                            <a href="" class="middle-menu-card-list-txt">1 McChicken™, 1 Big Mac™,  1 Royal  </a>
+                            <a href="" class="middle-menu-card-list-txt">Cheeseburger, 3 medium sized French Fries ,</a>
+                            <a href="" class="middle-menu-card-list-txt">3 cold drinks</a>
+                        </div>
+                        <div class="middle-menu-card-btns-wrapp d-flex justify-content-start align-items-center gap-1">
+                            <div class="middle-menu-card-black-btn d-flex justify-content-start align-items-center">
+                                <a href="" class="middle-menu-card-black-btn-txt text-light ">Small</a>
+                                <div class="middle-menu-card-green-btn d-flex justify-content-center align-items-center">
+                                    <a href="" class="middle-menu-card-green-btn-txt text-light ">$21.90</a>
+                                </div>
+                            </div>
+                            <div class="middle-menu-card-btn d-flex justify-content-start align-items-center">
+                                <a href="" class="middle-menu-card-btn-txt text-dark ">Small</a>
+                                <div class="middle-menu-card-green-btn d-flex justify-content-center align-items-center">
+                                    <a href="" class="middle-menu-card-green-btn-txt text-light ">$21.90</a>
+                                </div>
+                            </div>
+                            <div class="middle-menu-card-btn d-flex justify-content-start align-items-center">
+                                <a href="" class="middle-menu-card-btn-txt text-dark ">Small</a>
+                                <div class="middle-menu-card-green-btn d-flex justify-content-center align-items-center">
+                                    <a href="" class="middle-menu-card-green-btn-txt text-light ">$21.90</a>
+                                </div>
+                            </div>
+                            <div class="middle-menu-card-btn d-flex justify-content-start align-items-center">
+                                <a href="" class="middle-menu-card-btn-txt text-dark ">XL Large with Sauces</a>
+                                <div class="middle-menu-card-green-btn d-flex justify-content-center align-items-center">
+                                    <a href="" class="middle-menu-card-green-btn-txt text-light ">$21.90</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="middle-menu-card-img d-flex position-absolute">
+                            <img src="img/circle.png" alt="">
+                        </div>
+                    </div>
+                    <div class="middle-menu-card position-relative d-flex flex-column">
+                        <div class="middle-menu-card-name d-flex flex-column align-items-start">
+                            <a href="" class="text-dark fs-4 fw-bold">Farm house Xtreme Pizza</a>
+                            <img src="img/sharpnesspng.png" alt="">
+                        </div>
+                        <div class="middle-menu-card-list d-flex flex-column">
+                            <a href="" class="middle-menu-card-list-txt">1 McChicken™, 1 Big Mac™,  1 Royal  </a>
+                            <a href="" class="middle-menu-card-list-txt">Cheeseburger, 3 medium sized French Fries ,</a>
+                            <a href="" class="middle-menu-card-list-txt">3 cold drinks</a>
+                        </div>
+                        <div class="middle-menu-card-btns-wrapp d-flex justify-content-start align-items-center gap-1">
+                            <div class="middle-menu-card-black-btn d-flex justify-content-start align-items-center">
+                                <a href="" class="middle-menu-card-black-btn-txt text-light ">Small</a>
+                                <div class="middle-menu-card-green-btn d-flex justify-content-center align-items-center">
+                                    <a href="" class="middle-menu-card-green-btn-txt text-light ">$21.90</a>
+                                </div>
+                            </div>
+                            <div class="middle-menu-card-btn d-flex justify-content-start align-items-center">
+                                <a href="" class="middle-menu-card-btn-txt text-dark ">Small</a>
+                                <div class="middle-menu-card-green-btn d-flex justify-content-center align-items-center">
+                                    <a href="" class="middle-menu-card-green-btn-txt text-light ">$21.90</a>
+                                </div>
+                            </div>
+                            <div class="middle-menu-card-btn d-flex justify-content-start align-items-center">
+                                <a href="" class="middle-menu-card-btn-txt text-dark ">Small</a>
+                                <div class="middle-menu-card-green-btn d-flex justify-content-center align-items-center">
+                                    <a href="" class="middle-menu-card-green-btn-txt text-light ">$21.90</a>
+                                </div>
+                            </div>
+                            <div class="middle-menu-card-btn d-flex justify-content-start align-items-center">
+                                <a href="" class="middle-menu-card-btn-txt text-dark ">XL Large with Sauces</a>
+                                <div class="middle-menu-card-green-btn d-flex justify-content-center align-items-center">
+                                    <a href="" class="middle-menu-card-green-btn-txt text-light ">$21.90</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="middle-menu-card-img d-flex position-absolute">
+                            <img src="img/circle.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-right col-3 border">
+                    <div class="menu-time d-flex justify-content-center align-items-center">
+                        <img src="img/Clock.png" alt="">
+                        <a href="" id="menu-time" class="banner-imgs-txt text-light fs-6 fw-bolder">Open until 3:00 AM</a>
+                    </div>
+                    <div class="menu-basket d-flex justify-content-start align-items-center ">
+                        <img src="img/Basket.png " class="menu-basket-img" alt="">
+                        <a href="" class="menu-basket-txt text-light fs-2">My basket</a>
+                    </div>
+                    <div class="basket-positions border d-flex justify-content-start align-items-center">
+                        <div class="basket-positions-numbers d-flex justify-content-center align-items-center">
+                            <a href="" class="basket-positions-numbers-txt text-light fs-4 fw-bold">1x</a>
+                        </div>
+                        <div class="basket-positions-info d-flex flex-column justify-content-start ">
+                            <a href="" class="text-success fs-6 fw-bold lh-lg" >$27.90</a>
+                            <a href="" class="text-dark fs-6 fw-bold lh-lg">12``Vagitatian Pizza</a>
+                            <a href="" class="text-dark fs-6">No Mushrooms + green peppers</a>
+                        </div>
+                        <div class="remove-img-inner">
+                            <img src="img/Remove.png" alt="">
+                        </div>
+                    </div>
+                    <div class="basket-positions border d-flex justify-content-start align-items-center">
+                        <div class="basket-positions-numbers d-flex justify-content-center align-items-center">
+                            <a href="" class="basket-positions-numbers-txt text-light fs-4 fw-bold">1x</a>
+                        </div>
+                        <div class="basket-positions-info d-flex flex-column justify-content-start ">
+                            <a href="" class="text-success fs-6 fw-bold lh-lg" >$17.90</a>
+                            <a href="" class="text-dark fs-6 fw-bold lh-lg">12``tandoori Pizza</a>
+                            <a href="" class="text-dark fs-6">No Mushrooms + green peppers</a>
+                        </div>
+                        <div class="remove-img-inner">
+                            <img src="img/Remove2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="basket-positions border d-flex justify-content-start align-items-center">
+                        <div class="basket-positions-numbers d-flex justify-content-center align-items-center">
+                            <a href="" class="basket-positions-numbers-txt text-light fs-4 fw-bold">2x</a>
+                        </div>
+                        <div class="basket-positions-info d-flex flex-column justify-content-start ">
+                            <a href="" class="text-success fs-6 fw-bold lh-lg" >$4.90</a>
+                            <a href="" class="text-dark fs-6 fw-bold lh-lg">12``Coke Coca Cola</a>
+                            <a href="" class="text-dark fs-6">No Mushrooms + green peppers</a>
+                        </div>
+                        <div class="remove-img-inner">
+                            <img src="img/Remove3.png" alt="">
+                        </div>
+                    </div>
+                    <div class="basket-positions border d-flex justify-content-start align-items-center">
+                        <div class="basket-positions-numbers d-flex justify-content-center align-items-center">
+                            <a href="" class="basket-positions-numbers-txt text-light fs-4 fw-bold">1x</a>
+                        </div>
+                        <div class="basket-positions-info d-flex flex-column justify-content-start ">
+                            <a href="" class="text-success fs-6 fw-bold lh-lg" >$27.90</a>
+                            <a href="" class="text-dark fs-6 fw-bold lh-lg">12``Vagitatian Pizza</a>
+                            <a href="" class="text-dark fs-6">No Mushrooms + green peppers</a>
+                        </div>
+                        <div class="remove-img-inner">
+                            <img src="img/Remove4.png" alt="">
+                        </div>
+                    </div>
+                    <div class="score border d-flex justify-content-between justify-content-start">
+                        <div class="score-info d-flex flex-column justify-content-start">
+                            <a href="" class="text-dark fs-5 fw-bold lh-lg">Sub Total:</a>
+                            <a href="" class="text-dark fs-5 fw-bold lh-lg">Discounts:</a>
+                            <a href="" class="text-dark fs-5 fw-bold lh-lg">Delivery Fee:</a>
+                        </div>
+                        <div class="score-pay d-flex flex-column justify-content-end">
+                            <a href="" class="text-dark fs-5 lh-lg text-end">$127.90</a>
+                            <a href="" class="text-dark fs-5 lh-lg text-end">-3.00</a>
+                            <a href="" class="text-dark fs-5 lh-lg text-end">2.50</a>
+                        </div>
+                    </div>
+                    <div class="score-btns-wrapp d-flex flex-column justify-content-center">
+                        <div class="score-orange-btn d-flex justify-content-between">
+                            <a href="" class="text-light fs-4 ">Total to pay</a>
+                            <a href="" class="text-light fs-3 fw-bold">$127.90</a>
+                        </div>   
+                        <div class="score-btn d-flex justify-content-between align-items-center">
+                            <a href="" class="text-dark fs-6">Choose your free item..</a>
+                            <img src="img/Forward1.png" alt="">
+                        </div> 
+                        <div class="score-btn d-flex justify-content-between align-items-center">
+                            <a href="" class="text-dark fs-6">Apply Coupon Code here</a>
+                            <img src="img/Forward2.png" alt="">
+                        </div> 
+                        <div class="delivery border d-flex flex-column justify-content-center">
+                            <div class="delivery-btns-wrapp d-flex justify-content-center align-items-center gap-2">
+                                <div class="delivery-btn d-flex flex-column justify-content-center align-items-center">
+                                    <img src="img/Scooter.png" alt="">
+                                    <a href="" class="text-dark fs-6 text-center fw-bold">Delivery</a>
+                                    <a href="" class="text-dark fs-6 text-center">Starts at 17:50</a>
+                                </div>
+                                <div class="delivery-btn d-flex flex-column justify-content-center align-items-center">
+                                    <img src="img/Scooter.png" alt="">
+                                    <a href="" class="text-dark fs-6 text-center fw-bold">Delivery</a>
+                                    <a href="" class="text-dark fs-6 text-center">Starts at 17:50</a>
+                                </div>
+                            </div>
+                            <div class="delivery-green-btn d-flex justify-content-start align-items-center gap-5">
+                                <img src="img/Forward3.png" alt="">
+                                <a href="" class="text-light fs-3 fw-bold">Checkout!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="info-wrapp d-flex justify-content-between">
+                    <div class="info-wrapp-info col-4 d-flex flex-column">
+                        <div class="info-inner d-flex justify-content-start align-items-center gap-4">
+                            <img src="img/Tracking.png" alt="">
+                            <a href="" class="text-dark fs-2 fw-bold">Delivery information</a>
+                        </div>
+                        <div class="info-inner-info d-flex flex-column">
+                        <a href="" class="text-dark fs-5 fw-bold">Monday:<span class="text-dark fs-5 fw-light">12:00 AM-3:00 AM, 8:00 AM-3:00 AM</span></a>
+                        <a href="" class="text-dark fs-5 fw-bold">Tuesday: <span class="text-dark fs-5 fw-light">8:00 AM-3:00 AM</span></a>
+                        <a href="" class="text-dark fs-5 fw-bold">Wednesday: <span class="text-dark fs-5 fw-light">8:00 AM-3:00 AM</span></a>
+                        <a href="" class="text-dark fs-5 fw-bold">Thursday: <span class="text-dark fs-5 fw-light">8:00 AM-3:00 AM</span></a>
+                        <a href="" class="text-dark fs-5 fw-bold">Friday: <span class="text-dark fs-5 fw-light">8:00 AM-3:00 AM</span></a>
+                        <a href="" class="text-dark fs-5 fw-bold">Saturday: <span class="text-dark fs-5 fw-light">8:00 AM-3:00 AM</span></a>
+                        <a href="" class="text-dark fs-5 fw-bold">Sunday: <span class="text-dark fs-5 fw-light">8:00 AM-12:00 AM</span></a>
+                        <a href="" class="text-dark fs-5 fw-bold">Estimated time until delivery: <span class="text-dark fs-6 fw-light">20 min</span></a>
+                        </div>
+                    </div>
+                    <div class="info-wrapp-info col-4 d-flex flex-column">
+                        <div class="info-inner d-flex justify-content-start align-items-center gap-4">
+                            <img src="img/ID.png" alt="">
+                            <a href="" class="text-dark fs-2 fw-bold">Contact information</a>
+                        </div>
+                        <div class="info-inner-info d-flex flex-column">
+                        <a href="" class="text-dark fs-5 fw-bold"><span class="text-dark fs-5 fw-light">If you have allergies of other dietary</span></a>
+                        <a href="" class="text-dark fs-5 fw-bold"><span class="text-dark fs-5 fw-light">restrictions, please contact the restaurant. The</span></a>
+                        <a href="" class="text-dark fs-5 fw-bold"><span class="text-dark fs-5 fw-light">restaurant will provide food-specific </span></a>
+                        <a href="" class="text-dark fs-5 fw-bold"><span class="text-dark fs-5 fw-light">information upon request.</span></a>
+                        <a href="" class="text-dark fs-5 fw-bold">Phone number<span class="text-dark fs-5 fw-light"></span></a>
+                        <a href="" class="text-dark fs-5 fw-bold">+934443-43<span class="text-dark fs-5 fw-light"></span></a>
+                        <a href="" class="text-dark fs-5 fw-bold">Website<span class="text-dark fs-5 fw-light"></span></a>
+                        <a href="" class="text-dark fs-5 fw-bold">http://mcdonalds.uk/<span class="text-dark fs-6 fw-light"></span></a>
+                        </div>
+                    </div>
+                    <div id="info-wrapp-info" class="info-wrapp-info col-4 d-flex flex-column">
+                        <div class="info-inner d-flex justify-content-start align-items-center gap-4">
+                            <img src="img/Clock2.png" alt="">
+                            <a href="" class="text-light fs-2 fw-bold">Delivery information</a>
+                        </div>
+                        <div class="info-inner-info d-flex flex-column" >
+                        <a href="" class="text-light fs-5 fw-bold">Monday:<span class="text-light fs-5 fw-light">12:00 AM-3:00 AM, 8:00 AM-3:00 AM</span></a>
+                        <a href="" class="text-light fs-5 fw-bold">Tuesday: <span class="text-light fs-5 fw-light">8:00 AM-3:00 AM</span></a>
+                        <a href="" class="text-light fs-5 fw-bold">Wednesday: <span class="text-light fs-5 fw-light">8:00 AM-3:00 AM</span></a>
+                        <a href="" class="text-light fs-5 fw-bold">Thursday: <span class="text-light fs-5 fw-light">8:00 AM-3:00 AM</span></a>
+                        <a href="" class="text-light fs-5 fw-bold">Friday: <span class="text-light fs-5 fw-light">8:00 AM-3:00 AM</span></a>
+                        <a href="" class="text-light fs-5 fw-bold">Saturday: <span class="text-light fs-5 fw-light">8:00 AM-3:00 AM</span></a>
+                        <a href="" class="text-light fs-5 fw-bold">Sunday: <span class="text-light fs-5 fw-light">8:00 AM-12:00 AM</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="map position-relative">
+                    <div class="map-info position-absolute d-flex flex-column align-items-start">
+                        <div class="map-info-name d-flex flex-column align-items-start">
+                            <a href="" class="text-light fw-bold fs-2">McDonal's</a>
+                            <a href="" class="text-warning fs-4">South london</a>
+                        </div>
+                        <a href="" class="text-light fs-4 fw-light">Tooley St, London Bridge, London SE1 2TF, United Kingdom</a>
+                        <a href="" class="text-light fs-4 fw-bold">Phone number</a>
+                        <a href="" class="text-warning fs-4">+934443-43</a>
+                        <a href="" class="text-light fs-4 fw-bold">website</a>
+                        <a href="" class="text-warning fs-4">http://mcdonalds.uk/</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row reviews-wrap-row">
+                <div class="reviews-wrap d-flex flex-column position-relative">
+                    <div class="reviews-top d-flex justify-content-between align-items-center">
+                        <h1>Customer Reviews</h1>
+                        <div class="reviews-top-btns d-flex  gap-4">
+                            <img src="img/arrowleft.png" alt="">
+                            <img src="img/arrowright.png" alt="">
+                        </div>
+                    </div>
+                    <div class="reviews-inner d-flex justify-content-between align-items-center">
+                        <div class="reviews-inner-card justify-content-start align-items-center">
+                            <img src="img/reviewscard.png" alt="">
+                            <img src="img/reviewscard.png" alt="">
+                            <img src="img/reviewscard.png" alt="">
+                        </div>
+                    </div>
+                    <div class="d-flex position-absolute reviews-wrap-img">
+                        <img src="img/reviews.png" alt="" class="" >
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="restaurants-wrapper">
+                    <div class="restaurants-wrapper-txt">
+                        <h1>Similar Restaurants</h1>
+                    </div>
+                    <div class="restaurants-wrapper-img d-flex justify-content-around align-items-center">
+                        <div class="col2">
+                            <img src="img/mac.png" alt="">
+                        </div>
+                        <div class="col2">
+                            <img src="img/papa.png" alt="">
+                        </div>
+                        <div class="col2">
+                            <img src="img/kfc.png" alt="">
+                        </div>
+                        <div class="col2">
+                            <img src="img/texas.png" alt="">
+                        </div>
+                        <div class="col2">
+                            <img src="img/bk.png" alt="">
+                        </div>
+                        <div class="col2">
+                            <img src="img/shava.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row ">
+                <div class="footer ">
+                    <div class="footer-wrapp d-flex justify-content-around ">
+                        <div class=" d-flex flex-column footer-logo-inner">
+                            <img src="img/LOGO2.png" alt="" class="footer-logo-img">
+                            <img src="img/app.png" alt="" class="footer-app-img">
+                            <a href="" class="text-dark fs-6 lh-base">Company # 490039-445, Registered with </a>
+                            <a href="" class="text-dark fs-6 lh-base">House of companies.</a>
+                        </div>
+   
+                        <div class="footer-input">
+                            <a href="" class="text-dark fs-6 lh-1 fw-bold">Get Exclusive Deals in your Inbox</a>
+                            <div class="footer-info-input-search">
+                                <input type="text" class="footer-info-input-search-text" placeholder="youremail@gmail.com">
+                                <button class="footer-info-input-search-btn"><p >Subscribe</p></button>
+                            </div>
+                            <a href="" class="text-dark fs-6 lh-1 footer-input-txt">we wont spam, read our email policy</a>
+                            <div class="footer-input-imgs d-flex justify-content-start gap-4">
+                                <img src="img/Facebook.png" alt="">
+                                <img src="img/Instagram.png" alt="">
+                                <img src="img/TikTok.png" alt="">
+                                <img src="img/Snapchat.png" alt="">
+                            </div>
+                        </div>
+                        <div class="footer-txt d-flex flex-column justify-content-start">
+                            <a href="" class="text-dark fs-5 fw-bold">Legal Pages</a>
+                            <a href="" class="text-dark fs-5 text-decoration-underline">Terms and conditions</a>
+                            <a href="" class="text-dark fs-5 text-decoration-underline">Prrivacy</a>
+                            <a href="" class="text-dark fs-5 text-decoration-underline">Cookies</a>
+                            <a href="" class="text-dark fs-5 text-decoration-underline">Modern Slavery Statment</a>
+                        </div>
+                        <div class="footer-txt d-flex flex-column justify-content-start">
+                            <a href="" class="text-dark fs-5 fw-bold">Important Links</a>
+                            <a href="" class="text-dark fs-5 text-decoration-underline">Get help</a>
+                            <a href="" class="text-dark fs-5 text-decoration-underline">Add your restaurant</a>
+                            <a href="" class="text-dark fs-5 text-decoration-underline">Sign up to deliver</a>
+                            <a href="" class="text-dark fs-5 text-decoration-underline">Create a business account</a>
+                        </div>
+                    </div>
+                    <div class="footer-info-wrapp d-flex justify-content-between align-items-center">
+                        <div class="footer-info-inner">
+                            <a href="" class="text-light fs-6 fw-light">Order.uk Copyright 2024, All Rights Reserved.</a>
+                        </div>
+                        <div class="d-flex  justify-content-around align-items-center gap-5">
+                            <a href="" class="text-light fs-6 fw-light">Privacy Policy</a>
+                            <a href="" class="text-light fs-6 fw-light">Terms</a>
+                            <a href="" class="text-light fs-6 fw-light">Pricing</a>
+                            <a href="" class="text-light fs-6 fw-light">Do not sell or share my personal</a>
+                            <a href="" class="text-light fs-6 fw-light">information</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+ 
+
+</body>
+</html>
+
+
